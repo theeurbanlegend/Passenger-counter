@@ -11,4 +11,4 @@ function save(){
     countY.textContent=0;
     inc=0;
 }
-alert("Lets count People")
+alert("Let's Count People")
