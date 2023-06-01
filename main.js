@@ -10,7 +10,5 @@ function save(){
     saveEl.textContent=saveEl.innerText + countInc
     countY.textContent=0;
     inc=0;
-
-   
-
 }
+alert("Lets count People")
