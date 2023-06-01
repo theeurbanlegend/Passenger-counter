@@ -8,7 +8,9 @@ let saveEl = document.getElementById("save-el")
 function save(){
     let countInc=inc + " - "
     saveEl.textContent=saveEl.innerText + countInc
-    console.log(inc)
+    countY.textContent=0;
+    inc=0;
+
    
 
 }
