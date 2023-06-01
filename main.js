@@ -6,6 +6,8 @@ function increment() {
  }
 let saveEl = document.getElementById("save-el")
 function save(){
+    let countInc=inc + " - "
     console.log(inc)
-    saveEl.innerText=`${inc} - `
+    saveEl.innerText=saveEl.innerText + countInc
+    console.log(inc)
 }
